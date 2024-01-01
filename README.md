@@ -1,12 +1,31 @@
-# Starter Next/Hardhat Project
+## About the Project
+We have integrated Frontend with the smart contract. By integrating the contract we will be able to interact with the functions declared in the smart contract.
+In this project contract, we have set number, get number and get address function fronted integrated with the node js.
 
-After cloning the github, you will want to do the following to get the code running on your computer.
+## Get Started
+The Assessment smart contract allows for basic account management, enabling deposits, burn and withdrawals. It logs transactions and provides an overview of the transaction history.
 
-1. Inside the project directory, in the terminal type: npm i
-2. Open two additional terminals in your VS code
-3. In the second terminal type: npx hardhat node
-4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
-5. Back in the first terminal, type npm run dev to launch the front-end.
 
-After this, the project will be running on your localhost. 
-Typically at http://localhost:3000/
+### Requirement
+* Any complier(Here I'm Using VScode)
+* Mingw
+* Nodejs
+
+
+### Executing program
+* Write the functions in that code.
+* TO RUN THIS CODE THERE ARE FEW COMMANDS 
+```
+cd file name 
+npm i 
+npx hardhat node
+npx hardhat run --network localhost scripts/deploy.js
+npm run dev 
+```
+* Executes deploy and withdraw part with the help of wallet
+
+## Authors
+Tarun Bankar  
+
+## License
+This project is licensed under the [MIT] License - see the LICENSE.md file for details
